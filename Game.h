@@ -32,7 +32,7 @@ protected:
     int blueScore = 0;
     int redScore = 0;
     int numSOS = 0;
-
+    bool isFull();
 
 private:
     std::set<std::tuple<int, int, int, int, int, int>> sosPatterns;

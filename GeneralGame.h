@@ -8,7 +8,6 @@ public:
 
 	void UpdateScore(int currrentPlayer);
 
-private:
-	bool isFull();
+
 };
 

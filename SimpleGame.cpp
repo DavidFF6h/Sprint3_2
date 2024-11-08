@@ -16,4 +16,15 @@ void SimpleGame::UpdateScore(int currrentPlayer)
 			break;
 		}
     }
+	if (isFull()) {
+		if (blueScore > redScore) {
+			printf("Blue Wins");
+		}
+		else if (blueScore < redScore) {
+			printf("Red Wins");
+		}
+		else {
+			printf("Draw");
+		}
+	}
 }
